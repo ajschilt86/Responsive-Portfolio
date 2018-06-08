@@ -218,3 +218,63 @@ textarea {
     width: 100%;
 }
 
+/* <----------Media-------------> */
+
+@media  screen and (max-width: 980px)  {
+   
+    .mainContent {
+        width: 690px;
+            
+    }
+   
+  
+    .bodyPort {
+        width: 690px;
+            
+    }
+
+    body {
+        margin: 0 10px 0 10px;   
+    }
+
+    .navbar {
+        max-width: 890px;
+    }
+
+    .headerAll {
+        width: 960px;
+    }
+
+    h1.name {
+        margin: auto;
+    }
+    
+}
+
+@media  screen and (max-width: 768px)  {
+
+    .bodyPort {
+        width: 790px;
+  
+}
+
+    .navbar {
+        max-width: 960px;
+    }
+
+    .headerAll {
+        width: 960px;
+    }
+    
+   
+}
+
+@media  screen and (max-width: 640px)  {
+
+    .bodyPort {
+        width: 690px;
+            
+    }
+
+    
+}
