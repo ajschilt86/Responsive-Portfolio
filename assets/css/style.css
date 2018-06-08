@@ -89,7 +89,7 @@ h2.contact {
 }
 
 .mainContentWrap {
-    margin: 30px 0;
+    margin: 30px -5px;
 }
 
 .aboutImage {
@@ -262,12 +262,12 @@ textarea {
     }
    
     .mainContent {
-        width: 600px;
+        width: 500px;
         margin: 35px 40px 0px 36px;             
     }   
   
     .bodyPort {
-        width: 570px;
+        width: 560px;
         margin: 35px 20px 0px 36px;    
     }
 
@@ -294,7 +294,7 @@ textarea {
     
     nav ul {
         position: relative;
-        right: 12%;
+        right: 0%;
        
     }
     
@@ -313,7 +313,7 @@ textarea {
     }   
   
     .bodyPort {
-        width: 465px;
+        width: 265px;
         margin: 35px 20px 0px 36px;
         height: 1100px;    
     }
