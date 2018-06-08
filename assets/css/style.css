@@ -308,7 +308,7 @@ textarea {
     }
    
     .mainContent {
-        width: 465px;
+        width: 265px;
         margin: 35px 40px 0px 36px;             
     }   
   
@@ -337,14 +337,14 @@ textarea {
     
     h1.name {
         position: relative;
-        left: 5%;
+        left: -10%;
     
     }
     
     nav ul {
         position: relative;
        
-        right: 100%;
+        right: 124%;
        
     }
     
