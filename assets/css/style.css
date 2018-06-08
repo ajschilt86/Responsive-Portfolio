@@ -267,7 +267,7 @@ textarea {
     }   
   
     .bodyPort {
-        width: 600px;
+        width: 570px;
         margin: 35px 20px 0px 36px;    
     }
 
@@ -276,7 +276,7 @@ textarea {
         height: 200px;
         width: 275px;
         float: left;
-        margin: o;    
+        margin: 0;    
     }
 
     .navbar {
@@ -294,7 +294,7 @@ textarea {
     
     nav ul {
         position: relative;
-        right: 8%;
+        right: 12%;
        
     }
     
