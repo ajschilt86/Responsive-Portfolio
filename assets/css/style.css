@@ -220,21 +220,20 @@ textarea {
 
 /* <----------Media-------------> */
 
-@media  screen and (max-width: 980px)  {
+@media screen and (max-width: 980px)  {
+
+    .headerAll {
+        background-color: red;
+    }
    
     .mainContent {
-        width: 690px;
-            
-    }
-   
+        width: 630px;
+        margin: 35px 40px 0px 36px;             
+    }   
   
     .bodyPort {
-        width: 690px;
-            
-    }
-
-    body {
-        margin: 0 10px 0 10px;   
+        width: 630px;
+        margin: 35px 20px 0px 36px;    
     }
 
     .navbar {
@@ -243,38 +242,31 @@ textarea {
 
     .headerAll {
         width: 960px;
-    }
-
-    h1.name {
-        margin: auto;
-    }
-    
+    }        
 }
 
-@media  screen and (max-width: 768px)  {
+@media screen and (max-width: 768px)  {
 
-    .bodyPort {
-        width: 790px;
+    .headerAll {
+        background-color: green;
+    }
+   
+    .mainContent {
+        width: 800px;
+        margin: 35px 40px 0px 36px;             
+    }   
   
-}
+    .bodyPort {
+        width: 800px;
+        margin: 35px 20px 0px 36px;    
+    }
 
     .navbar {
-        max-width: 960px;
+        max-width: 890px;
     }
 
     .headerAll {
         width: 960px;
-    }
-    
-   
+    }        
 }
 
-@media  screen and (max-width: 640px)  {
-
-    .bodyPort {
-        width: 690px;
-            
-    }
-
-    
-}
