@@ -22,7 +22,7 @@ header::after {     /* found this on youtube */
 
 .navbar {
     width: 100%;
-    
+    width: 960px;
     margin: auto;   
 }
 
@@ -271,7 +271,11 @@ textarea {
    
     .headerAll {
         width: 100%;
-    }        
+    }
+    
+    .navbar {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px)  {
@@ -298,9 +302,8 @@ textarea {
         margin: 0;    
     }
     
-    h1.name {
-        position: relative;
-        left: -15%;
+    .navbar {
+        width: 100%;
     }
     
     nav ul {
@@ -343,12 +346,23 @@ textarea {
     }
 
     h1.name {
-        margin-left: 165px;
+        margin-left: 58px;
+    }
+    .navbar {
+        width: 100%;
     }
 
     nav ul {
-        margin-right: 71px;
+        margin: auto;
+        margin-left: 80px;
     }
+    nav {
+        float: left;
+        display: block;
+    }
+
+   
+    
       
 }
 
