@@ -349,7 +349,7 @@ textarea {
     nav {
         float: left;
         display: block;
-        margin: -11px;
+        margin-left: -6px;
     }
     
     .aboutText {
@@ -363,9 +363,8 @@ textarea {
         left: 23%;
     }
 
-    .contact {
-        position: relative;
-        left: 23%;
+    h2.contact {
+        margin-left: 62px;
     }
     
 }
