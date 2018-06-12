@@ -240,10 +240,6 @@ textarea {
 /* <----------Media-------------> */
 
 @media screen and (max-width: 980px)  {
-
-    .headerAll {
-        background-color: red;
-    }
    
     .mainContent {
         width: 560px;
@@ -274,10 +270,6 @@ textarea {
 }
 
 @media screen and (max-width: 768px)  {
-
-    .headerAll {
-        background-color: orange;
-    }
    
     .mainContent {
         width: 500px;
@@ -308,20 +300,25 @@ textarea {
 }
 
 @media screen and (max-width: 640px)  {
-
-    
-    .headerAll {
-        background-color: blue;
-    }
    
     .mainContent {
         width: 265px;
-        margin: 35px 40px 0px 36px;             
+        margin: 35px 40px 116px 36px;           
     }   
+
+    .mainContentWrap {
+        border-top: 1px solid grey;
+        padding-top: 20px;
+        margin-top: -20px;  
+    }
+
+    h2.contact {
+        border-bottom: none;
+    }
   
     .bodyPort {
         width: 265px;
-        margin: 35px 20px 0px 36px;
+        margin: 35px 20px 116px 36px;
         height: 1100px;    
     }
 
@@ -340,6 +337,7 @@ textarea {
     h1.name {
         margin-left: 58px;
     }
+
     .navbar {
         width: 100%;
     }
@@ -351,7 +349,25 @@ textarea {
     nav {
         float: left;
         display: block;
-    }       
+        margin: -11px;
+    }
+    
+    .aboutText {
+        display: block;
+    }
+
+    .aboutImage {
+        float: none;
+        margin-bottom: 5px;
+        position: relative;
+        left: 23%;
+    }
+
+    .contact {
+        position: relative;
+        left: 23%;
+    }
+    
 }
 
 
