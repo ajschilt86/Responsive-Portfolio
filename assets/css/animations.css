@@ -1,0 +1,129 @@
+
+h1.name {
+	animation-name: slideExpandUp;
+	-webkit-animation-name: slideExpandUp;	
+
+	animation-duration: 1.6s;	
+	-webkit-animation-duration: 1.6s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;
+
+	visibility: visible !important;	
+}
+
+@keyframes slideExpandUp {
+	
+	100%{
+		transform: rotate(360deg) scaleY(1);
+	}	
+	40%{
+		transform: rotate(360deg) scaleY(0.5);
+	}
+	50%{
+		transform: rotate(360deg) scaleY(1.1);
+	}
+	60%{
+		transform: rotate(360deg) scaleY(0.9);		
+	}
+	70% {
+		transform: rotate(360deg) scaleY(1.05);
+	}			
+	80%{
+		transform: rotate(360deg) scaleY(0.95);		
+	}
+	90% {
+		transform: rotate(360deg) scaleY(1.02);
+	}	
+	100%{
+		transform: rotate(360deg) scaleY(1);		
+	}
+}
+
+@-webkit-keyframes slideExpandUp {
+	
+	100%{
+		-webkit-transform: rotate(360deg) scaleY(1);
+	}	
+	40%{
+		-webkit-transform: rotate(360deg) scaleY(0.5);
+	}
+	50%{
+		-webkit-transform: rotate(360deg) scaleY(1.1);
+	}
+	60%{
+		-webkit-transform: rotate(360deg) scaleY(0.9);		
+	}
+	70% {
+		-webkit-transform: rotate(360deg) scaleY(1.05);
+	}			
+	80%{
+		-webkit-transform: rotate(360deg) scaleY(0.95);		
+	}
+	90% {
+		-webkit-transform: rotate(360deg) scaleY(1.02);
+	}	
+	100%{
+		-webkit-transform: rotate(360deg) scaleY(1);		
+	}
+}
+
+nav {
+	animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+nav:before {
+    visibility: hidden;
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(150%);
+	}
+	50%{
+		transform: translateX(-8%);
+	}
+	65%{
+		transform: translateX(4%);
+	}
+	80%{
+		transform: translateX(-4%);
+	}
+	95%{
+		transform: translateX(2%);
+	}			
+	100% {
+		transform: translateX(0%);
+	}
+}
+
+@-webkit-keyframes slideLeft {
+	0% {
+		-webkit-transform: translateX(150%);
+	}
+	50%{
+		-webkit-transform: translateX(-8%);
+	}
+	65%{
+		-webkit-transform: translateX(4%);
+	}
+	80%{
+		-webkit-transform: translateX(-4%);
+	}
+	95%{
+		-webkit-transform: translateX(2%);
+	}			
+	100% {
+		-webkit-transform: translateX(0%);
+	}
+}
