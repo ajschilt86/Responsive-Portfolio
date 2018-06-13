@@ -71,11 +71,15 @@ h1.name {
 nav {
 	animation-name: slideLeft;
     -webkit-animation-name: slideLeft;
-    animation-delay: .5s;
-    animation-fill-mode: backwards;
     
-	animation-duration: 1s;	
-	-webkit-animation-duration: 1s;
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+
+    animation-fill-mode: backwards;
+    -webkit-animation-fill-mode: backwards;
+    
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
 
 	animation-timing-function: ease-in-out;	
 	-webkit-animation-timing-function: ease-in-out;		
