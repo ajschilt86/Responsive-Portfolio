@@ -71,8 +71,9 @@ h1.name {
 nav {
 	animation-name: slideLeft;
     -webkit-animation-name: slideLeft;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
     
-
 	animation-duration: 1s;	
 	-webkit-animation-duration: 1s;
 
@@ -83,38 +84,13 @@ nav {
 }
 
 @keyframes slideLeft {
-	0% {
-        transform: translateX(150%);
-        opacity: 0;
-    }
-
+	    
     0% {
         transform: translateX(150%);
-        opacity: 0;
-    }
-
-    0% {
-        transform: translateX(150%);
-        opacity: 0;
-    }
-
-    0% {
-        transform: translateX(150%);
-        opacity: 0;
-    }
-    
-    0% {
-        transform: translateX(150%);
-        opacity: 0;
-    }
-    
-    0% {
-        transform: translateX(150%);
-        opacity: 0;
-	}
-    
+        opacity: 0;        
+	}    
 	50%{
-		transform: translateX(-8%);
+        transform: translateX(-8%);        
 	}
 	65%{
 		transform: translateX(4%);
