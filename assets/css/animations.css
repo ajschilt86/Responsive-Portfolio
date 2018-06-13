@@ -1,4 +1,3 @@
-
 h1.name {
 	animation-name: slideExpandUp;
 	-webkit-animation-name: slideExpandUp;	
@@ -12,8 +11,8 @@ h1.name {
 	visibility: visible !important;	
 }
 
-@keyframes slideExpandUp {
-	
+@keyframes slideExpandUp {	
+    
 	100%{
 		transform: rotate(360deg) scaleY(1);
 	}	
@@ -40,8 +39,8 @@ h1.name {
 	}
 }
 
-@-webkit-keyframes slideExpandUp {
-	
+@-webkit-keyframes slideExpandUp {	
+
 	100%{
 		-webkit-transform: rotate(360deg) scaleY(1);
 	}	
@@ -87,8 +86,8 @@ nav {
 	visibility: visible !important;	
 }
 
-@keyframes slideLeft {
-	    
+@keyframes slideLeft {	    
+
     0% {
         transform: translateX(150%);
         opacity: 0;        
@@ -111,6 +110,7 @@ nav {
 }
 
 @-webkit-keyframes slideLeft {
+
 	0% {
 		-webkit-transform: translateX(150%);
 	}
