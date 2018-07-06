@@ -22,7 +22,7 @@ header::after {     /* found this on youtube */
 
 .navbar {
     width: 100%;
-    width: 960px;
+    width: 1003px;
     margin: auto;   
 }
 
@@ -73,7 +73,7 @@ nav li:hover {
     margin: auto;
     margin-top: 35px;
     margin-bottom: 20px;
-    width: 890px;
+    width: 935px;
     padding: 20px 35px 25px 35px;
     line-height: 1.5;
 }
@@ -113,7 +113,7 @@ h2.contact {
     color: #777777;
     border: 1px solid #dddddd;
     Height: 850px;
-    width: 890px;
+    width: 935px;
     margin: auto;
     padding: 36px 35px 20px 35px;
     margin-bottom: 125px;
