@@ -22,7 +22,7 @@ header::after {     /* found this on youtube */
 
 .navbar {
     width: 100%;
-    width: 1003px;
+    width: 1010px;
     margin: auto;   
 }
 
@@ -73,7 +73,7 @@ nav li:hover {
     margin: auto;
     margin-top: 35px;
     margin-bottom: 20px;
-    width: 935px;
+    width: 942px;
     padding: 20px 35px 25px 35px;
     line-height: 1.5;
 }
@@ -113,7 +113,7 @@ h2.contact {
     color: #777777;
     border: 1px solid #dddddd;
     Height: 850px;
-    width: 935px;
+    width: 942px;
     margin: auto;
     padding: 36px 35px 20px 35px;
     margin-bottom: 125px;
@@ -126,12 +126,13 @@ h2.contact {
     width: 275px;
     float: left;
     margin: 0px 40px 57px 0px;    
+    border: 1px solid grey;
 }
 
 .img1:hover{
     transform: translateY(-5px);
     animation: all .2s;
-    box-shadow: 0px 0px 35px black;
+    box-shadow: 0px 0px 35px #4aaaa5;
 }
 
 .img1:active{
